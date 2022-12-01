@@ -17,3 +17,6 @@ git commit -m "primo commit"
 PUSH
 4) riporto le modifiche sul repository remoto
 git push origin main
+
+
+trallallero
