@@ -1,0 +1,43 @@
+CREAZIONE REPOSITORY
+1) creo cartella sul desktop (no spazi; es: Test1). Tasto destro sulla cartella -> Git Bash Here
+git init
+
+
+ADD
+2) aggiungo un file alla cartella Test1 (no spazi; es: a.txt)
+git add "a.txt"
+
+
+CONFIGURAZIONE UTENTE
+3) per l'utente definisco la mail ed il nome
+git config user.email "<mia email>" (es: git config user.email "carugati.paolo@iisgalvanimi.edu.it")
+git config user.name "<mio nome>" (es: git config user.name "paolo carugati")
+
+
+COMMIT 1
+4) effettuo il commit e gli assegno un'etichetta per identificarlo
+git commit -m "primo commit"
+
+
+COMMIT 2
+5) modifico il file creato (es: aggiungendo del testo)
+git add "a.txt"
+git commit -m "secondo commit"
+
+oppure
+
+git commit -a -m "secondo commit"
+
+
+STORICO DEI COMMIT
+6) per vedere la storia del progetto
+git log
+
+
+CHECKOUT
+7) voglio tornare alla prima versione del file (primo commit)
+git checkout <codice commit>
+
+
+ELIMINARE FISICAMENTE IL REPOSITORY
+8) rm -rf .git

@@ -1,0 +1,5 @@
+CLONAZIONE REPOSITORY GITHUB
+1) dopo essersi registrati su github e creato un repository su github lo clono in locale per poterci lavorare
+git clone <url repository> (es: git clone https://github.com/PaoloCarugati/GithubTest.git)
+
+
