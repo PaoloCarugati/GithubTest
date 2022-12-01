@@ -1,5 +1,19 @@
 CLONAZIONE REPOSITORY GITHUB
 1) dopo essersi registrati su github e creato un repository su github lo clono in locale per poterci lavorare
 git clone <url repository> (es: git clone https://github.com/PaoloCarugati/GithubTest.git)
+--> crea una cartella all'interno di quella da cui ho aperto la bash
 
 
+ADD 
+2) aggiungo file nella cartella creata con il comando clone
+git add * 
+
+
+COMMIT
+3) faccio il commit (repository locale)
+git commit -m "primo commit" 
+
+
+PUSH
+4) riporto le modifiche sul repository remoto
+git push origin main
