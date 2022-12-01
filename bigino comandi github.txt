@@ -17,7 +17,13 @@ git commit -m "primo commit"
 PUSH
 4) riporto le modifiche sul repository remoto
 git push origin main
+<<<<<<< HEAD
 --> dovrei vedere i file che ho aggiunto anche sul repository remoto
 
 
 PULL
+=======
+
+
+trallallero
+>>>>>>> e3ed378486c64b803d1e9237e7f04dc77318d2fb
